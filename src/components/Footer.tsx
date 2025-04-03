@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div className="flex items-center">
             <p className="text-muted-foreground flex items-center">
-              Made with <Heart className="text-primary mx-1" size={16} fill="currentColor" /> by Jane Doe
+              Made with <Heart className="text-primary mx-1" size={16} fill="currentColor" /> by John Maitai
             </p>
           </div>
         </div>
