@@ -78,11 +78,12 @@ const About = () => {
                     <span className="tag">JavaScript</span>
                     <span className="tag">TypeScript</span>
                     <span className="tag">React</span>
-                    <span className="tag">Next.js</span>
+                    <span className="tag">Virtual Assistant</span>
                     <span className="tag">Node.js</span>
                     <span className="tag">Tailwind CSS</span>
                     <span className="tag">Git</span>
-                    <span className="tag">Figma</span>
+                    <span className="tag">Digital Marketing</span>
+                    <span className="tag">Copywriter</span>
                   </div>
                 </div>
               </div>
