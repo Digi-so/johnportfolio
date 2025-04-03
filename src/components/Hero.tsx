@@ -10,11 +10,11 @@ const Hero = () => {
             Hi there, I'm
           </h2>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 animate-fade-up" style={{ animationDelay: '0.3s' }}>
-            <span className="gradient-text">Jane Doe.</span><br />
+            <span className="gradient-text">John Maitai.</span><br />
             <span className="text-foreground">I build digital experiences.</span>
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl animate-fade-up" style={{ animationDelay: '0.5s' }}>
-            I'm a frontend developer passionate about creating beautiful, functional, and accessible web applications.
+            A Passionate Software Engineering, aspiring Full Stack Developer, Product Designer & Virtual Assistant with a keen eye for detail and efficiency!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-up" style={{ animationDelay: '0.7s' }}>
             <a href="#projects" className="btn-primary">
