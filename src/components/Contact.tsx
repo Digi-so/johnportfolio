@@ -93,7 +93,7 @@ const Contact = () => {
             <div className="mt-12">
               <h3 className="text-xl font-semibold mb-4">Connect With Me</h3>
               <div className="flex gap-4">
-                <a href="#" className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors">
+                <a href="https://github.com/maizimaitai" target="_blank" rel="noopener noreferrer" className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors">
                   <Github className="text-primary" size={24} />
                 </a>
                 <a href="#" className="p-3 bg-primary/10 rounded-lg hover:bg-primary/20 transition-colors">

@@ -8,8 +8,8 @@ const projects = [
     description: 'A full-featured e-commerce platform built with React and Node.js.',
     image: 'https://images.unsplash.com/photo-1649972904349-6e44c42644a7?auto=format&fit=crop&w=800&q=80',
     tags: ['React', 'Node.js', 'MongoDB', 'Express'],
-    liveLink: '#',
-    githubLink: '#'
+    liveLink: 'https://maizimaitai-ecommerce.netlify.app',
+    githubLink: 'https://github.com/maizimaitai/ecommerce-platform'
   },
   {
     id: 2,
@@ -17,8 +17,8 @@ const projects = [
     description: 'A modern portfolio website template for developers and designers.',
     image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=800&q=80',
     tags: ['HTML/CSS', 'JavaScript', 'GSAP'],
-    liveLink: '#',
-    githubLink: '#'
+    liveLink: 'https://maizimaitai-portfolio.netlify.app',
+    githubLink: 'https://github.com/maizimaitai/portfolio-website'
   },
   {
     id: 3,
@@ -26,8 +26,8 @@ const projects = [
     description: 'A drag-and-drop task management application with team collaboration features.',
     image: 'https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80',
     tags: ['React', 'Firebase', 'Tailwind CSS'],
-    liveLink: '#',
-    githubLink: '#'
+    liveLink: 'https://maizimaitai-taskmanager.netlify.app',
+    githubLink: 'https://github.com/maizimaitai/task-manager'
   }
 ];
 
@@ -67,11 +67,11 @@ const Projects = () => {
                   ))}
                 </div>
                 <div className="flex gap-4">
-                  <a href={project.liveLink} className="text-primary hover:text-primary/80 flex items-center gap-1 text-sm font-medium">
+                  <a href={project.liveLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 flex items-center gap-1 text-sm font-medium">
                     <ExternalLink size={16} />
                     <span>Live Demo</span>
                   </a>
-                  <a href={project.githubLink} className="text-primary hover:text-primary/80 flex items-center gap-1 text-sm font-medium">
+                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="text-primary hover:text-primary/80 flex items-center gap-1 text-sm font-medium">
                     <Github size={16} />
                     <span>GitHub</span>
                   </a>
