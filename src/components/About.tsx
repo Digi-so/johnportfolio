@@ -51,12 +51,12 @@ const About = () => {
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Work Experience</h3>
                     <div className="mb-4">
-                      <h4 className="text-foreground font-medium">Senior Frontend Developer</h4>
-                      <p className="text-muted-foreground">Tech Company • 2020 - Present</p>
+                      <h4 className="text-foreground font-medium">Senior Web Developer</h4>
+                      <p className="text-muted-foreground">Tech Company • 2023 - Present</p>
                     </div>
                     <div>
-                      <h4 className="text-foreground font-medium">Frontend Developer</h4>
-                      <p className="text-muted-foreground">Digital Agency • 2018 - 2020</p>
+                      <h4 className="text-foreground font-medium">Virtual Assistant</h4>
+                      <p className="text-muted-foreground">Digital Agency • 2019 - 2022</p>
                     </div>
                   </div>
                 </div>
@@ -70,12 +70,12 @@ const About = () => {
                   <div>
                     <h3 className="text-xl font-semibold mb-1">Education</h3>
                     <div className="mb-4">
-                      <h4 className="text-foreground font-medium">MSc in Computer Science</h4>
-                      <p className="text-muted-foreground">University Name • 2016 - 2018</p>
+                      <h4 className="text-foreground font-medium">Degree in Computer Science</h4>
+                      <p className="text-muted-foreground">Alpha Academy • 2017 - 2019</p>
                     </div>
                     <div>
-                      <h4 className="text-foreground font-medium">BSc in Web Development</h4>
-                      <p className="text-muted-foreground">University Name • 2012 - 2016</p>
+                      <h4 className="text-foreground font-medium">Certified in Web Development</h4>
+                      <p className="text-muted-foreground">PLP Academy • 2018 - 2024</p>
                     </div>
                   </div>
                 </div>
